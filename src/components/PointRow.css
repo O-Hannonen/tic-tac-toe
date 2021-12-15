@@ -1,0 +1,40 @@
+.Point-row{
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    color:rgb(59, 106, 177);
+}
+
+.Player-box{
+    width: 50px;
+    height: 50px;
+    background-color:transparent;
+    border-color: transparent;
+    border-width: 2px;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.Player-box-highlight{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(59, 106, 177);
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:rgb(31, 58, 99);
+}
+
+
+.Score{
+ 
+    margin-left: 15px;
+    margin-right: 15px;
+}

@@ -1,0 +1,23 @@
+.SingleBox{
+   width: 150px;
+   height: 150px;
+   border-color: rgb(59, 106, 177);
+   border-style: solid;
+   border-width: 0px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: transparent;
+   color: rgb(59, 106, 177);
+
+}
+
+.CenterVertical{
+    border-top-width: 4px;
+    border-bottom-width:4px ;
+}
+
+.CenterHorizontal{
+    border-left-width: 4px;
+    border-right-width:4px ;
+}

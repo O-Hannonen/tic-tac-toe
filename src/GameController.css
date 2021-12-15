@@ -1,0 +1,36 @@
+.Game-controller{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: space;
+   background-color: rgb(37, 38, 44);
+   color:rgb(59, 106, 177);
+   height: 100%;
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+}
+
+.Grid{
+   width: 450px;
+   height: 450px;
+   display: grid;
+   gap: 0px;
+   align-content: center;
+   align-items:center;
+   text-align: center;
+   grid-template-columns: repeat(3, 150px);
+   grid-template-rows: repeat(3, 150px);
+   
+}
+.Button{
+    font-size: large;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(59, 106, 177);
+    color:rgb(31, 58, 99);
+    border: none
+}
+
